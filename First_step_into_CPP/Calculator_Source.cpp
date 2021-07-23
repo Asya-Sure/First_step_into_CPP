@@ -5,35 +5,34 @@ using namespace std;
 
 void LearningVariables()
 {
-    setlocale(LC_ALL, "Russian");
     float a, b, s;
     int dp;
 
-    cout << "Привет! Я калькулятор!Какие действие вы будете выполнять:" << endl;
-    cout << "1. Сложение. " << endl;
-    cout << "2. Отнимание." << endl;
-    cout << "3. Умножение." << endl;
-    cout << "4. Деление." << endl;
+    cout << "Hello! I am a calculator! What actions will we perform:" << endl;
+    cout << "1. Addition. " << endl;
+    cout << "2. Subtraction." << endl;
+    cout << "3. Multiplication." << endl;
+    cout << "4. Division." << endl;
 
-    cout << "Введите число для выбора действия" << endl;
+    cout << "Enter a number to select an action" << endl;
 
     cin >> dp;
 
     switch (dp)
     {
     case 1:
-        cout << "Число a = " << endl;
+        cout << "Number a = " << endl;
         cin >> a;
-        cout << "Число b = " << endl;
+        cout << "Number b = " << endl;
         cin >> b;
         s = a + b;
         cout << "\n" << a << " + " << b << " = " << s << endl;
         break;
 
     case 2:
-        cout << "Число a = " << endl;
+        cout << "Number a = " << endl;
         cin >> a;
-        cout << "Число b = " << endl;
+        cout << "Number b = " << endl;
         cin >> b;
         s = a - b;
         cout << "\n" << a << " - " << b << " = " << s << endl;
@@ -41,18 +40,18 @@ void LearningVariables()
 
 
     case 3:
-        cout << "Число a = " << endl;
+        cout << "Number a = " << endl;
         cin >> a;
-        cout << "Число b = " << endl;
+        cout << "Number b = " << endl;
         cin >> b;
         s = a * b;
         cout << "\n" << a << " * " << b << " = " << s << endl;
         break;
 
     case 4:
-        cout << "Число a =  " << endl;
+        cout << "Number a =  " << endl;
         cin >> a;
-        cout << "Число b =  " << endl;
+        cout << "Number b =  " << endl;
         cin >> b;
         s = a / b;
         cout << "\n" << a << " / " << b << " = " << s << endl;
