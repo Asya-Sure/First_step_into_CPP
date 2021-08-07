@@ -1,11 +1,13 @@
 ﻿#include <iostream>
-#include "Calculator_Header.h"
+ //#include "Calculator_Header.h"
+#include "LearningLoopsLibrary.h"
 
 using namespace std;
 
 int main()
 {
-    LearningVariables();
-    
+    //LearningVariables();
+    LearningLoops();
+
     return 0;
-}
+}   

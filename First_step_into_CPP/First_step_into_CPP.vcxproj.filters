@@ -21,9 +21,15 @@
     <ClCompile Include="Calculator_Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LearningLoopsLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Calculator_Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LearningLoopsLibrary.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
